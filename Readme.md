@@ -26,3 +26,5 @@ Credits :
 
 - https://www.youtube.com/watch?v=DflWqmppOAg&t=1594s&ab_channel=DSwithBappy
 
+- https://github.com/entbappy/Streamlit-app-Docker-Image
+- https://github.com/entbappy/Deploy-Streamlit-app-on-EC2-instance

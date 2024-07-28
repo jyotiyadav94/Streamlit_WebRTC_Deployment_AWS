@@ -18,14 +18,11 @@ Use SSH to connect to your EC2 instance. For example:
 
 ```bash
 ssh -i "your-key.pem" ec2-user@your-ec2-public-dns
-
-
-Credits :
-
-```bash
-https://medium.com/@workkanikshasharma/lets-build-an-easy-computer-vision-web-app-with-streamlit-streamlit-webrtc-78326ad7c1dc
 ```
-```bash
-https://www.youtube.com/watch?v=DflWqmppOAg&t=1594s&ab_channel=DSwithBappy
 
-```
+Credits : 
+
+- https://medium.com/@workkanikshasharma/lets-build-an-easy-computer-vision-web-app-with-streamlit-streamlit-webrtc-78326ad7c1dc
+
+- https://www.youtube.com/watch?v=DflWqmppOAg&t=1594s&ab_channel=DSwithBappy
+

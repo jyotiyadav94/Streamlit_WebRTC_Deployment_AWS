@@ -1,23 +1,53 @@
 
 # Let’s Build An Easy Computer Vision Web App with Streamlit & Streamlit-webrtc
 
+WebRTC is an open framework that enables Real-Time Communication (RTC) across web browsers. 
+You can send several simultaneous streams of data, video, audio, or combinations of them using this resilient and low-latency protocol.
+
+# How to run the Project 
+
+```bash
+docker-compose up
+```
 
 # How to Deploy Streamlit App on EC2 Instance
 
-Follow these steps to deploy a Streamlit application on an EC2 instance:
+Streamlit app Docker Image
 
-## 1. Launch an EC2 Instance
+1. Login with your AWS console and launch an EC2 instance
+2. Run the following commands
+   
+Note: Do the port mapping to this port:- 8501
+```bash
+sudo apt-get update -y
 
-1. Log in to your [AWS Management Console](https://aws.amazon.com/console/).
-2. Navigate to the EC2 Dashboard.
-3. Launch a new EC2 instance with your preferred configuration. Ensure that you allow inbound traffic on port `8501` in the security group settings.
+sudo apt-get upgrade
 
-## 2. Connect to Your EC2 Instance
+#Install Docker
 
-Use SSH to connect to your EC2 instance. For example:
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
+```
 
 ```bash
-ssh -i "your-key.pem" ec2-user@your-ec2-public-dns
+git clone "your-project"
+```
+
+```bash
+docker build -t webrtc/app:latest . 
+```
+
+```bash
+docker images -a
+```
+
+```bash
+docker run -d -p 8501:8501 webrtc/app 
 ```
 
 Credits : 

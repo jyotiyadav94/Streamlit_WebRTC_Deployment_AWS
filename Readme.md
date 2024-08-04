@@ -52,6 +52,8 @@ docker run -d -p 8501:8501 webrtc/app
 
 Credits : 
 
+- https://medium.com/@fengliu_367/getting-started-with-webrtc-a-practical-guide-with-example-code-b0f60efdd0a7
+
 - https://medium.com/@workkanikshasharma/lets-build-an-easy-computer-vision-web-app-with-streamlit-streamlit-webrtc-78326ad7c1dc
 
 - https://www.youtube.com/watch?v=DflWqmppOAg&t=1594s&ab_channel=DSwithBappy
